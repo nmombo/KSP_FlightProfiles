@@ -23,6 +23,7 @@ pressure_aerodynamic = 0.5 .* density_atmospheric .* velocity_surface.^2;
 MECO = 226;
 SECO = 652;
 
+
 %% FIGURE 1
 %  LAUNCH PROFILE TO MECO
 figure(1);
@@ -45,6 +46,7 @@ xlabel('Downrange Distance (km)');
 ylabel('Altitude ASL (km)');
 
 saveas(1, 'GSO Relay Ship Launch Profile.png');
+
 
 %% FIGURE 2
 %  LAUNCH PROFILE TO SECO
